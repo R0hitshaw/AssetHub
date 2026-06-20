@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -p 8080:8080 -e JWT_SECRET=your-super-secret-key-64-chars-min -e SPRING_DATASOURCE_USERNAME=root -e SPRING_DATASOURCE_PASSWORD=your-db-pass asset-management-app
